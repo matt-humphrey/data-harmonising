@@ -5,4 +5,10 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://matt-humphrey.github.io',
                 'git_url': 'https://github.com/matt-humphrey/data-harmonising',
                 'lib_path': 'data_harmonising'},
-  'syms': {'data_harmonising.core': {'data_harmonising.core.foo': ('core.html#foo', 'data_harmonising/core.py')}}}
+  'syms': { 'data_harmonising.data': { 'data_harmonising.data.Dataset': ('data.html#dataset', 'data_harmonising/data.py'),
+                                       'data_harmonising.data.Dataset.__init__': ('data.html#dataset.__init__', 'data_harmonising/data.py'),
+                                       'data_harmonising.data.read_sav': ('data.html#read_sav', 'data_harmonising/data.py'),
+                                       'data_harmonising.data.reformat_metadata': ( 'data.html#reformat_metadata',
+                                                                                    'data_harmonising/data.py'),
+                                       'data_harmonising.data.sav_to_parquet': ('data.html#sav_to_parquet', 'data_harmonising/data.py')},
+            'data_harmonising.test': {}}}
